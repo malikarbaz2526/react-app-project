@@ -1,0 +1,138 @@
+
+/* .box img{
+    width: 230px;
+} */
+.light{
+    background-color:#f7f7f7f7
+  
+}
+body{
+    background-color:#f7f7f7f7;
+}
+.light .container2{
+    background-color:#fffffff7;
+}
+
+
+
+
+.light .box .card-body img{
+    width: 180px;
+   height: 180px;
+   transition: 0.4s;
+}
+.light .card-body img:hover{
+   transform: scale(1.2);
+}
+.light .card-body h2.product-name{
+   font-size: 21px;
+   padding: 15px 0px;
+   
+}
+.light .card-body h2.product-name a{
+   text-decoration: none;
+   color: black;
+
+}
+.light .card-body h2.price{
+   font-size: 25px;
+   padding: 10px 0px;
+}
+.light .price{
+   color:black;
+}
+ .light .card-body a.add-to-cart-btn{
+    border: 1px solid #198754;
+    padding: 5px 23px;
+    color: #198754;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.6s;
+    text-decoration: none;
+    font-weight: 500;
+}
+.light .add-to i{
+   color:#198754;
+}
+
+.light .card-body a.add-to-cart-btn i{
+   font-size: 19px;
+}
+.light .card-body a.add-to-cart-btn:hover{
+   background: var(--bs-success);
+   color: #fff;
+}
+.light .card-body h6.sell{
+   text-decoration:line-through ;
+   position: relative;
+  left: -15px;
+   top: -12px;
+   
+}
+.dark{
+   background-color:#010101f7;
+  
+ 
+}
+
+
+.dark .container2{
+   background-color:#6966664d;
+}
+
+
+.dark .box .card-body img{
+   width: 180px;
+  height: 180px;
+  transition: 0.4s;
+}
+.dark .card-body img:hover{
+  transform: scale(1.2);
+}
+.dark .card-body h2.product-name{
+  font-size: 21px;
+  padding: 15px 0px;
+  
+}
+.dark .card-body h2.product-name a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+
+}
+.dark .card-body h2.price{
+  font-size: 25px;
+  padding: 10px 0px;
+}
+.dark .card-body a.add-to-cart-btn{
+   border: 1px solid #ffc107;
+   padding: 5px 23px;
+   color: #ffc107;
+   border-radius: 50px;
+   text-transform: uppercase;
+   font-size: 14px;
+   transition: 0.6s;
+   text-decoration: none;
+   font-weight: 500;
+}
+.dark .price{
+   color:rgb(255, 255, 255);
+}
+.dark .card-body a.add-to-cart-btn i{
+  font-size: 19px;
+}
+.dark .card-body a.add-to-cart-btn:hover{
+  background: #ffc107;
+  color: #fff;
+}
+.dark .card-body h6.sell{
+  text-decoration:line-through ;
+  position: relative;
+ left: -15px;
+  top: -12px;
+  
+}
+.dark .add-to i{
+   color:#ffc107;
+}
+
